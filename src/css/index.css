@@ -1,0 +1,95 @@
+@font-face {
+    src: url(../resource/fonts/Poppins-Bold.ttf);
+    font-family: "Poppins"
+}
+
+@font-face {
+    src: url(../resource/fonts/Poppins-ExtraBold.ttf);
+    font-family: "Poppins-extrabold";
+    
+}
+
+@font-face {
+    src: url(../resource/fonts/Poppins-Light.ttf);
+    font-family: "Poppins-light";
+}
+
+.to-do {
+    
+    
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+    overflow: auto;
+}
+
+.to-do .row {
+    display: flex;
+    align-items: center;    
+    
+    
+}
+
+.to-do .row .get-data {
+    margin-left: 50px;
+    width: 200px;
+    height: 30px;
+}
+
+.to-do .row .submit {
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-family: "Poppins-light";
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.to-do .row .header {
+    font-family: 'Poppins';
+    font-size: 30px;
+    margin: 30px;
+    
+}
+
+.to-do .list {
+    margin-left: 5rem;
+
+}
+.to-do .list .list1{
+    width: 500px;
+    height: 50px;
+    border: 1px solid black;
+    
+    font-family: 'Poppins-light';
+    font-size: 15px;
+    display: flex;
+    
+
+
+}
+
+.to-do .list .list1 .header {
+    margin: auto;
+    margin-left: 20px;
+
+}
+
+.to-do .list .list1 .cancel img {
+    width: 60px;
+    height: 45px;
+}
+
+.to-do .list .list1 .cancel {
+    background-color: transparent;
+    border: none;
+}
