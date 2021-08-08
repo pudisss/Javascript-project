@@ -1,0 +1,63 @@
+@font-face {
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-family: "Poppins";
+}
+
+@font-face {
+    src: url(../fonts/Poppins-Light.ttf);
+    font-family: "Poppins-light";
+}
+
+
+.container {
+    border: 1px solid black;
+    background-color: transparent;
+    font-family: "Poppins";
+}
+
+.container .form {
+    display: block;
+}
+
+.container .form input {
+    font-family: "Poppins-light";
+    font-size: 25px;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+
+}
+
+.container .form .submit {
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: transparent;
+    font-family: "Poppins-light";
+    margin-left: 3rem;
+    margin-top: 3rem;
+    transition: 300ms;
+}
+
+.container .form .submit:hover {
+    background-color:rgb(29, 218, 218);
+    color: white;
+
+}
+
+.Todolist {
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+    background-color: transparent;
+
+}
+
+.Todolist .header {
+    font-family: "Poppins";
+    font-size: 30px;
+    color: black;
+}
